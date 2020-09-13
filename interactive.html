@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet"
+		  type="text/css"
+		  href="style.css"
+        />
+     <script src="calculator.js"></script>
+     <title>Golden Calculator</title>   
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+        <a class="navbar-brand" href="#">Golden Ratio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="applications.html">Applications</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="interactive.html">Interactive Example</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="calculator">
+            <div class="topdiv">
+                Golden Ratio Calculator
+            </div>
+            <div class="alignCenter note small">• Enter just
+                <strong>one</strong> number to create a golden ratio or,
+                <br> • Enter both A and B for comparison or,
+                <br> • Enter both A+B and A for comparision or,<br>
+                    • Enter both A+B and B for comparision
+            </div>
+            <br>
+            <br>
+            <p class="span">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A &plus; B &nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A &nbsp;&nbsp;&nbsp;=&nbsp; &nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;
+            &nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B</p>
+            <div class="input">
+                <input class="form-control form-control-lg" id="aplusb" type="text">
+                <input class="form-control form-control-lg" id="aA" type="text">
+                <input class="form-control form-control-lg" id="aA1" type="text">
+                <input class="form-control form-control-lg" id="bB" type="text">
+            </div>
+            <input class="btn btn-primary" type="reset" value="Reset" id="reset">
+            <input class="btn btn-primary" type="submit" value="Submit" id="submit">
+           
+    </div>
+    <div class="result">
+
+    </div>
+</body>
